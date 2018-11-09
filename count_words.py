@@ -29,5 +29,5 @@ def print_summary(filepath, ct):
         ', '.join(counts)))
 
 
-words_list = set(['inflation', 'jobs', 'output'])
-count_words_in_dir('./', words_list, action=print_summary)
+word_list = set(['inflation', 'jobs', 'output'])
+count_words_in_dir('./', word_list, action=print_summary)
